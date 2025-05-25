@@ -1,0 +1,72 @@
+    body {
+        background-image: url(https://img.freepik.com/free-vector/soft-colorful-watercolor-texture-decorative-background_1055-14244.jpg?semt=ais_hybrid&w=740);
+        background-size: 1700px;
+        background-repeat: no-repeat;
+      }
+
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between; 
+      align-items: center;            
+      padding: 20px 40px;
+      background-color: white;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      width: 100%;
+    
+    }
+
+    .logo {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #333;
+    }
+
+    nav ul {
+      display: flex;        
+      gap: 30px;            
+      list-style: none;     
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-size: 1rem;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #007bff;
+    }
+
+    footer {
+      display: flex;
+      justify-content: left; 
+      align-items: center;
+      padding: 20px 40px;
+      background-color: #3f3c3c;
+      color: #fff;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
+
+    
+    .pic2 {
+      text-align: center;
+      margin-top: -5px;
+    }
+
+    .pic2 img {
+      width: 65%;
+      height: auto;
+      border-radius: 10px;
+    }
+  
